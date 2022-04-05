@@ -2,7 +2,7 @@
 
 namespace ComplexNumber
 {
-    public class ComplexNumber 
+    public class ComplexNumber
     {
 
         private readonly double _a;
@@ -12,7 +12,7 @@ namespace ComplexNumber
         {
             _a = a;
             _b = b;
-        } 
+        }
 
         public static ComplexNumber operator +(ComplexNumber a, ComplexNumber b)
         {
